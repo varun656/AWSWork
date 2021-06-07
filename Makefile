@@ -68,7 +68,7 @@ cwagent-otel-collector: update-submodule
 	#cd $(AOC_BASE_SPACE) && CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="${AOC_LDFLAGS}" -o $(BUILD_SPACE)/bin/linux_amd64/cwagent-otel-collector $(AOC_IMPORT_PATH)/cmd/awscollector
 	#cd $(AOC_BASE_SPACE) && CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -ldflags="${AOC_LDFLAGS}" -o $(BUILD_SPACE)/bin/linux_arm64/cwagent-otel-collector $(AOC_IMPORT_PATH)/cmd/awscollector
 	#cd $(AOC_BASE_SPACE) && CGO_ENABLED=0 GOOS=windows GOARCH=amd64 go build -ldflags="${AOC_LDFLAGS}" -o $(BUILD_SPACE)/bin/windows_amd64/cwagent-otel-collector.exe $(AOC_IMPORT_PATH)/cmd/awscollector
-	cd $(AOC_BASE_SPACE) && CGO_ENABLED=0 GOOS=linux GOARCH=arm go build -ldflags="${AOC_LDFLAGS}" -o $(BUILD_SPACE)/bin/linux_armhf/cwagent-otel-collector $(AOC_IMPORT_PATH)/cmd/awscollector
+	#cd $(AOC_BASE_SPACE) && CGO_ENABLED=0 GOOS=linux GOARCH=arm go build -ldflags="${AOC_LDFLAGS}" -o $(BUILD_SPACE)/bin/linux_armhf/cwagent-otel-collector $(AOC_IMPORT_PATH)/cmd/awscollector
 
 config-translator: copy-version-file
 	@echo Building config-translator
