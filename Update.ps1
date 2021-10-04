@@ -1,1 +1,2 @@
 Start-Process -FilePath "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" -ArgumentList "modify --installPath ""C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools"" --norestart --nocache --quiet --add Microsoft.VisualStudio.Component.NuGet.BuildTools" -NoNewWindow -Wait -PassThru
+Start-Process -FilePath "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" -ArgumentList "version"
