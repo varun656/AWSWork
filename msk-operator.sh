@@ -31,7 +31,7 @@ KAFKA_BROKER_LIST_TLS=$KAFKA_BROKER1:9094,$KAFKA_BROKER2:9094,$KAFKA_BROKER3:909
 if [ ! -z "${ZOOKEEPER_LIST}" ]; then
 	yum install java-1.8.0-openjdk
 	curl -L https://archive.apache.org/dist/kafka/2.2.1/kafka_2.12-2.2.1.tgz | tar zxv && cd kafka*
-        bin/kafka-topics.sh --create --zookeeper $ZOOKEEPER_LIST --replication-factor 2 --partitions 2 --topic test-run3
+        bin/kafka-topics.sh --create --zookeeper $ZOOKEEPER_LIST --replication-factor 2 --partitions 2 --topic test-run4
 else
     echo "[WARN] ZookeeperConnectString is missing. aborting...";
     exit 1; 
