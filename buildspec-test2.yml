@@ -37,7 +37,7 @@ phases:
     commands:
        - echo "Hello"
        - echo "Buildspec2 testing YAML"
-      # - command
+       - echo "Testing 1 2 3"
   #post_build:
     #commands:
       # - command
