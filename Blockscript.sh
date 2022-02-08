@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Hello 1"
-
+echo :Hello 2"
 echo "Hello 1"
 echo "Hello 12"
 echo "Hello 12"
