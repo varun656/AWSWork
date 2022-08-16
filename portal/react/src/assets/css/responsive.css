@@ -1,0 +1,2561 @@
+@media(min-width:992px){
+    .edit-quote .accordion{
+        width:100%;
+        max-width:520px;
+        margin:0 auto;
+        float:none;
+    }
+    .edit-quote .accordion:before{
+        display: none;
+    }
+    .edit-quote .accordion .small-width-container:last-child{
+        margin-bottom: 0;
+    }
+    .edit-quote .accordion .panel-body {
+        text-align: left;
+        padding: 35px;
+    }
+    .edit-quote .accordion .panel-default{
+        display: none;
+        border:none;
+    }
+    .edit-quote .accordion .panel-default .collapse{
+        display: block;
+    }
+    .edit-quote .accordion .panel-default.showme{
+        display: block;
+    }
+    .edit-quote .accordion .panel+.panel {
+        margin-top: 0px;
+    }
+}
+@media (max-width:2600px) and (min-width:1441px){
+    aside {
+        width: 700px;
+    }
+    aside .menu {
+        left: 60%;
+    }
+}
+@media (max-width:1680px){
+    aside .menu {
+        left: 45%;
+    }
+    aside {
+        width: 610px;
+    }
+}
+@media (max-width:1440px){
+    aside {
+        width: 330px;
+    }
+    aside .menu {
+        left: 45%;
+    }
+    .login-wrapper .main:before {
+        left: -32%;
+        top: -30%;
+    }
+    .login-wrapper .main:after {
+        right: -30%;
+        bottom: -26%;
+    }
+}
+    @media (max-width:1420px){
+        .about .section4.helping .right {
+            width: 370px;
+        }
+    }
+/* ____________ 1440 end __________*/
+@media (max-width:1366px){
+    .coverage-section .container>.left{
+        width:45.95%;
+    }
+    .coverage-section .container>.right{
+        width:47%;
+    }
+    .coverage-section .container>.right:before{
+        top: 29%;
+        right: -83%;
+        height: 575px;
+    }
+    .coverage-section .container>.left::before{
+        width:782px;
+        height:342px;
+        left: 88.4%;
+        top: 29.5%;
+    }
+    section.goal:before {
+        top: -18%;
+        left: -28%;
+    }
+    section.goal:after{
+        right:3%;
+    }
+    .helping .left:after {
+        left: 6.5%;
+    }
+    .home-blog:before {
+        left: -34%;
+    }
+    .home-blog:after{
+        right: -34%;
+    }
+    /* ____________ home 1366 end __________*/
+    aside .menu {
+        left: 110px;
+    }
+    /* ____________ login-wrapper 1366 end __________*/
+    .login-wrapper .main:before{
+        width: 580px;
+        height: 670px;
+        left: -35%;
+        top: -32%;
+    }
+    .login-wrapper .main:after{
+        width: 580px;
+        height: 670px;
+        right: -32%;
+        bottom: -39%;
+    }
+    .faq .top:before{
+        left: -54%;
+    }
+    .affiliates .helping .right {
+        width: 41.16%;
+    }
+    .affiliates .helping .right:before {
+        right: -78%;
+    }
+    .affiliates .hero .left .image {
+        
+    }
+    .about.affiliates .section4.helping .right {
+        width: 380px;
+    }
+    .about .section4.helping .left:after {
+        left: 145px;
+    }
+} /*___________________ 1366 end _________________*/
+
+@media (max-width:1300px){
+    footer .newsletter input {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:1200px){
+    /* ____________ home 1200 start __________*/
+    .first-section:before,
+    .coverage-section .container>.right:before,
+    section.goal:before,
+    section.goal:after,
+    .questions .inner .video:before,
+    .home-blog:after,
+    .home-blog:before{
+        display: none;
+    }
+    .first-section .right {
+        width: 70%;
+    }
+    .first-section .right .column img:nth-child(1) {
+        width: 100%;
+    }
+    .first-section .right .column:nth-child(4) {
+        top: 30px;
+    }
+    .first-section .right .column img {
+        margin-top: 0px;
+    }
+    
+    .first-section .right .column:nth-child(1) {
+        top: 102px;
+    }
+    .coverage-section .container>.right h1 {
+        max-width: 100%;
+        font-size: 50px;
+        line-height: 57px;
+    }
+    .coverage-section .container>.right .inner {
+        margin-left: 6%;
+    }
+    .coverage-card .card p,
+    .coverage-card .card span,
+    .coverage-card .card-left .right span{
+        font-size: 14px;
+    }
+    section.goal .text p {
+        width: 86%;
+    }
+    .questions .container > h4, .plans-products .container > h4 {
+        width: 50%;
+    }
+    .questions .inner .video{
+        width:49%;
+    }
+    .helping .left{
+        /* width:50%; */
+    }
+    .helping .right{
+        
+    }
+    .paperless.helping .right {
+        margin: 180px 0 0 40px;
+    }
+    .paperless.helping .right img {
+        top: 390px;
+    }
+    /* ____________ home 1200 end __________*/
+
+    aside .menu {
+        left: 30px;
+    }
+    .account-pages .navbar-nav {
+        width: 750px;
+    }
+    .account-pages .nav>li>a {
+        padding: 10px 15px;
+    }
+    .account-pages.partner .clients>.container {
+        width: 100%;
+    }
+    .account-pages .clients .tab-pane .myrow .left {
+        width: 56.8%;
+    }
+    .account-pages .clients .tab-pane .myrow .right {
+        width: 41.2%;
+    }
+    .account-pages .clients .tab-pane .myrow .right a {
+        width: 46.7%;
+    }
+    .contact.affiliates .faq-help.helping{
+        margin-bottom: 240px;
+    }
+    .contact .faq-help.paperless.helping .left .image {
+        width: 500px;
+        height: 450px;
+        margin-top: 0px;
+    }
+    .contact-area.helping .left .image {
+        width: 392px;
+        height: 405px;
+    }
+    .contact-area.helping .right {
+        margin-top: 20px;
+    }
+    .faq-help.paperless.helping .right {
+        margin: 0px 0 0 0px;
+    }
+    .affiliates .hero .right {
+        width: 38.7%;
+    }
+    .contact-area.helping .right {
+        width: 47.16%;
+        margin-right: 0%;
+    }
+    .account-pages .bonus .right {
+        width: 490px;
+    }
+    .edit-quote .accordion {
+        margin: 0 0 0 300px;
+        float: left;
+    }
+    .affiliates section.goal .text h4 {
+        height: 60px;
+    }
+    .about.affiliates .main-section .video{
+        width:488px;
+        height:auto;
+        margin-top: 40px;
+    }
+    .about.affiliates .main-section .text-container {
+        float: left;
+        width: 377px;
+    }
+    .about.affiliates .main-section .text-container h2 {
+        margin: 0px 0 30px 0;
+    }
+    .about.affiliates .section4.helping .right {
+        width: 320px;
+    }
+    
+    .about .section4.helping .left .image {
+        width: 480px;
+        height: 390px;
+    }
+    .about .section4.helping .left:after {
+        left: 0px;
+    }
+
+    .quote-page .inner.choose-insurance .col{
+        width:180px;
+    }
+    .affiliates .main-section .text-container {
+        padding-top: 0px;
+    }
+    .affiliates .main-section .video{
+        width: 450px;
+        height: 450px;
+    }
+    .faq .top .text-container {
+        width: 57%;
+        margin-top: 10px;
+    }
+    .faq .top .video {
+        width: 38%;
+        height: auto;
+    }
+    .faq-help.paperless.helping {
+        padding: 0px;
+    }
+    .faq .inner {
+        width: 100%;
+    }
+    .faq .tabbable-line > .nav-tabs > li {
+        width: 24%;
+    }
+
+    /*________________ login pages _______________*/
+    .login-wrapper form .small-width {/*new*/
+        float: left;
+        width: 202px;
+        margin: 0 10px;
+    }
+    /*________________ login pages end _______________*/
+}/*___________________ 1200 end _________________*/
+
+
+
+@media (max-width:1024px){
+    aside .menu {
+        left: 45px;
+    }
+    .affiliates .hero .right {
+        width: 38.7%;
+        margin-right: 0%;
+    }
+    .affiliates .hero .left .image {
+        
+    }
+}
+/*___________________ 991 start _________________*/
+@media (max-width:991px){
+    /* ____________ home 991 start __________*/
+    .container{
+        width: 100%;
+        padding:0 50px;
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        color: #fff !important;
+    }
+    .navbar-toggle { float: right;margin: 0; height: 16px; width: 20px;z-index: 1; border: none;}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #E03726;
+    }
+    .navbar-toggle .icon-bar { width: 22px;background: #E03726;transition: .5s ease;}
+    .navbar-toggle.collapsed .icon-bar:nth-child(2){transform: rotate(0)translateY(0)translateX(0);}
+    .navbar-toggle.collapsed .icon-bar:nth-child(3){opacity:1}
+    .navbar-toggle.collapsed .icon-bar:nth-child(4){transform:rotate(0)translateY(0)translateX(0);}
+    .navbar-toggle .icon-bar:nth-child(2){transform: rotate(-45deg)translateY(5px)translateX(-5px);}
+    .navbar-toggle .icon-bar:nth-child(3){opacity: 0}
+    .navbar-toggle .icon-bar:nth-child(4){transform:rotate(45deg)translateY(-4px)translateX(-3px);}
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        border:none;
+        background-color: transparent;
+    }
+    .navbar-brand img{
+        position: relative;
+        top: -6px;
+        height: 45px;
+    }
+    .menu-links ul li .btn-default {
+        width: 151px;
+        padding: 0;
+        line-height: 44px;
+        text-align: center;
+    }
+    .menu-links ul li .btn-brand {
+        line-height: 26px;
+    }
+    .btn-brand {
+        padding: 9px 36px;
+    }
+    .navbar-default {
+        min-height: 64px;
+    }    
+    .navbar-header {
+        float: none;
+    }
+    .navbar-brand {
+        height: 20px;
+        margin-top: 18px;
+    }
+    .navbar-toggle {
+        display: block;
+        padding:0px;
+        margin-top: 21px;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 30px -15px 7.5px -15px;
+        position: static;
+        transform: none;
+        background: #E03726;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color:#fff !important;
+    }
+    .navbar-nav .dropdown-menu>li>a{
+        color:#fff !important;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+        border-color:transparent;
+    }
+    .navbar-collapse.collapsing{
+        border-color:transparent;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+    .menu-links {
+        right: 50px;
+        top: 10px;
+        width: 350px;
+    }
+.header-container{
+    border-bottom:1px solid #EDF0FA;
+}
+.first-section {
+}
+.first-section .right {
+    width: 60%;
+    margin-top: 110px;
+}
+    .first-section .right .column{
+        width:calc(33.33% - 20px);
+        padding:0 10px;
+    }
+    .first-section .right .column:nth-child(4) {
+        top: 80px;
+    }
+    .first-section .right .column:nth-child(2) {
+        top: 126px;
+    }
+    .first-section .right .column:nth-child(1) {
+        top: 126px;
+    }
+    .first-section .left h1 {
+        font-size:50px;
+        line-height: 60px;
+        margin-bottom: 11px;
+    }
+    .first-section .left p {
+        margin-bottom: 40px;
+    }
+    .first-section .left {
+        float: left;
+        width: 317px;
+    }
+    .first-section .left .btn-brand {
+        line-height: 43px;
+        width: 157px;
+    }
+    .coverage-section {
+        
+    }
+    .coverage-section .container>.left {
+        width:calc(100% - 100px);
+        margin:0 50px;
+    }
+    .coverage-section .container>.left::before {
+        background: url(../images/home-map-tail-mobile.svg) no-repeat center center;
+        width: 197px;
+        height: 580px;
+        left: 67.4%;
+        top: -30.5%;
+    }
+    .coverage-section .container>.left img {
+        transform: unset;
+        position: relative;
+        top: 0%;
+        width:100%;
+    }
+    .coverage-section .container>.right {
+        float:left;
+        width:100%;
+        background: none;
+        height: auto;
+        margin-bottom: 40px;
+        z-index: 1;
+    }
+    .coverage-section .container>.right .inner{
+        position: static;
+        top:unset;
+        transform:unset;
+        margin-left:0px;
+        margin-right:0px;
+        max-width:initial;
+    }
+    .coverage-card .card p, .coverage-card .card span, .coverage-card .card-left .right span {
+        font-size: 16px;
+    }
+    .coverage-section .container>.right h1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 40px;
+    }
+    .coverage-card .card {
+        width: 48.36%;
+    }
+    section.goal{
+        margin-bottom:-20px;
+    }
+    section.goal .goal-row {
+        margin: 114px 0px 0px;
+        max-width: 100%;
+    }
+    section.goal .goal-col {
+        width: calc(50% - 24px);
+        margin-bottom: 100px;
+    }
+    section.goal .text h4 {
+        margin-top: 95px;
+    }
+    .questions h2,
+    .questions .container > h4{
+        float:left;
+        width:42%;
+        margin-left:35px;
+        text-align: left;
+    }
+    .questions .container>.video{
+        float:right;
+        width:50%;
+        position: relative;
+    }
+    .questions .inner {
+        margin-top: 50px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .accordion:before {
+        display: none;
+    }
+    .accordion .panel-title .icon:before {
+        top: 19px;
+    }
+    .accordion .accordion-toggle {
+        line-height: 83px;
+    }
+    .accordion .panel-body {
+        text-align: left;
+        padding: 0px 35px 35px 35px;
+        width: 86%;
+    }
+    .helping {
+        
+    }
+    .helping .right p{
+        width:100%;
+    }
+    .helping .left {
+        /* width: 43.3%; */
+    }
+    .helping .left:before {
+        left: auto;
+        right: 75px;
+        width: 258px;
+        height: 538px;
+        top:-82px;
+    }
+    .helping .left .image {
+        float:left;
+        margin-left: 50px;
+        width: 282px;
+        height: 316px;
+    }
+    .helping .left:after {
+        background: url(../images/helping-wave-mobile.svg) center center no-repeat;
+        width: 430px;
+        height: 537px;
+        top: -25%;
+        left: -86%;
+    }
+    .paperless.helping .right {
+        margin: -15px 0 0 50px;
+    }
+    .paperless.helping .right img {
+        top: 307px;
+        left: 38%;
+    }
+    .helping .right h1 {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 15px;
+    }
+    .paperless.helping .left:before {
+        width: 260px;
+        height: 590px;
+        top:-96px;
+    }    
+    .paperless.helping .left .image {
+        width: 264px;
+        height: 316px;
+        margin-left:0px;
+        margin-right: 50px;
+        float: right;
+    }
+    .home-blog{
+        margin-bottom: 100px;
+    }
+    .home-blog > h4 {
+        width: 53%;
+    }
+    .home-blog .container .row .col-sm-6:nth-child(1){
+        padding-right:10px;
+    }
+    .home-blog .container .row .col-sm-6:nth-child(2){
+        padding-left:10px;
+    }
+    .home-blog > .container p {
+        margin-bottom: 14px;
+        max-height: 64px;
+    }
+    footer {
+        padding: 60px 0 0px 0;
+    }
+    footer .container-fluid{
+        padding:0 50px;
+    }
+    footer .footer-logo {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 55px;
+        margin-left:0px;
+    }
+    footer h4 {
+        margin-bottom: 12px;
+        margin-left: 0px;
+    }
+    footer .newsletter{
+        float:left;
+        width:100%;
+        margin-top: 37px;
+    }
+    footer .row{
+        margin:0px;
+    }
+    footer .col-md-1,
+    footer .col-md-2,
+    footer .col-md-4{
+        padding:0px;
+    }
+    footer ul li {
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+    footer .newsletter input {
+        width: 75%;
+        margin-right: 0;
+    }
+    footer .btn-brand {
+        padding: 14px 36px;
+        margin-left: 3%;
+        width:22%;
+    }
+    .footer-bottom {
+        width: 100%;
+        margin: 35px auto 0 auto;
+        padding-top:47px;
+    }
+    .footer-bottom .left{
+        float: right;
+    }
+    .footer-bottom .right{
+        float: left;
+    }
+    .footer-bottom .right ul li {
+        margin: -10px 15px 0px 0px;
+    }
+    /* ____________ home 991 end __________*/
+    
+    /* ____________ quote page 991 start __________*/
+    aside .menu {
+        left: 30px;
+    }
+    .navbar-quote .navbar-default {
+        min-height: 54px;
+    }
+    .navbar-brand {
+        margin-top: 15px;
+    }
+    #menu-btn {
+        top: 20px;
+    }
+    .navbar-quote .save-quote {
+        top: 5px;
+    }
+    .quote-page .progress-bar {
+        margin-top: 16px;
+    }
+    .quote-page .inner.per-day .form-group.small-width {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .quote-page .inner form .btn-brand, .height-weight .btn-brand, .save-quote-inner .btn-brand {
+        line-height: 38px;
+    }
+    .quote-page .inner.choose-insurance .col{
+        margin-bottom: 50px;
+    }
+    .main-fix{
+        width: 600px;
+        margin-left: -80px;
+    }
+    /* ____________ quote page 991 end __________*/
+
+
+    /* ____________ plans page 991 start __________*/
+    .quote-page .inner.choose-insurance .col {
+        width: 240px;
+    }
+    .plan-comparison {
+        margin-bottom: 130px;
+    }
+    .plans-products {
+        margin-bottom: 120px;
+    }
+    .plans-products .prod-col{
+        padding:40px;
+        width:calc(50% - 10px);
+    }
+    .plans-products .prod-col p {
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+    .plans-products .prod-row .prod-col:nth-child(odd){
+        margin-left:0px;
+        margin-right:0px;
+    }
+    .plans-products .prod-row .prod-col:nth-child(even){
+        margin-right:0px;
+        margin-left:0px;
+        float: right;
+    }
+    .plans-products .container > h4 {
+        width: 66%;
+    }
+    .plans-products .prod-col .links-bottom a{
+        width:100%;
+    }
+    .plans-products .prod-col .links-bottom a.document{
+        margin-top:   10px;
+    }
+    .comparison-card{
+        border:0px;
+    }
+    .comparison-card .myrow .col {
+        width: 25%;
+        line-height: 60px;
+    }
+    .comparison-card .myrow .col1 {
+        width: 100%;
+        float: left;
+        text-align: left;
+        background-color: #fff;
+        color:#E03726;
+    }
+    .comparison-card .myrow {
+        padding:0px;
+    }
+    .comparison-card .myrow:before {
+        width: calc(100% - 0px);
+        left: 0px;
+    }
+    .comparison-card .myrow:after {
+        content: "";
+        border-bottom: 1px solid #F3F4F9;
+        height: 1px;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left:0px;
+    }
+    .comparison-card .top-row .col{
+        padding: 20px 0 25px 0;
+    }
+    .comparison-card .myrow .col3:after {
+        display: none;
+    }
+    .comparison-card .myrow .col3{
+        background: #E8F8F7;
+    }
+    .inner-row .row-under{
+        padding:0px;
+    }
+    .inner-row {
+        margin-top: 0px;
+    }
+    .comparison-card .myrow .row-under .col{
+        line-height: 24px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    a.row-toggle{
+        margin-top: 18px;
+        float: right;
+    }
+    .plans-products .prod-col:before {
+        width: 520px;
+        height: 380px;
+        top: 40px;
+        right: -130%;
+    }
+    .plans-products .prod-col.prod-col4:before{
+        background: url(../images/plans-prod-platinum-wave-sm.svg) no-repeat;
+        width: 490px;
+        height: 520px;
+        top: -100px;
+        right: -100%;
+    }
+    .plans-page .get-quote{
+        display: block;
+        float:left;
+        width:100%;
+        height:400px;
+        margin-bottom: 190px;
+        background: url(../images/statue-liberty.png) right 15% bottom no-repeat #FFF9E6;
+    }
+    .plans-page .get-quote .text{
+        margin: 100px 0 0 50px;
+    }
+    .plans-page .get-quote p{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 48px;
+        color: #0D0D0F;
+        width:440px;
+        margin-bottom: 30px;
+    }
+    .plans-page .get-quote a{
+        padding:14px 36px;
+        float:left;
+        width:256px;
+        text-align: center;
+    }
+    /* ____________ plans page 991 end __________*/
+
+    /* ____________ login and signup page 991 __________*/
+    .login-wrapper .main{
+        position: relative;
+    }
+        .login-wrapper:before{
+            content:"";
+            background-color: #E03726;
+            width:10px;
+            height:100%;
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+        .login-wrapper .main > .container {
+            display: block;
+        }
+    .login-wrapper .right{
+        width: 438px;
+        margin: 0 auto 50px auto;
+        float: none;
+    }
+    .login-wrapper .navbar-brand{
+        float: left;
+        width: 54px;
+        height: 54px;
+        margin-top: 30px;
+        margin-bottom: 85px;
+    }
+    .login-wrapper .navbar-brand img {
+        height: 54px;
+    }
+    .login-wrapper .main:before {
+        left: -46%;
+        top: -26%;
+    }
+    .login-wrapper .main:after {
+        right: -33%;
+        bottom: -27%;
+    }
+    .login-wrapper form .small-width {
+        width: 209px;
+    }
+    .login-wrapper .button-group.v-group li a{
+        padding: 17px 0px;
+    }
+    /* ____________ login and signup page 991 end __________*/
+
+    /* ____________ account-pages __________*/
+        .account-pages .main-heading{
+            font-size: 25px;
+            line-height: 31px;
+            text-align: center;
+            color: #0D0D0F;
+        }
+        .account-pages .myinsurance .left,
+        .account-pages .myinsurance .right{
+			float:left;
+			width:100%;
+            margin-left: 0px;
+            margin-right:0px;
+        }
+        .account-pages .claims .center-h .btn-brand{
+            padding:14px 36px;
+        }
+        .myinsurance-container{
+            margin: 0;
+        }
+        .account-pages .myinsurance .left{
+            margin-bottom: 100px;
+        }
+        .account-pages h2.main-heading {
+            font-size: 25px;
+            line-height: 31px;
+            margin: 55px 0 40px 0;
+        }
+        .account-pages .settings h2.main{
+            font-size: 25px;
+            line-height: 31px;
+        }
+        .account-pages .myinsurance .card h4{
+            margin-bottom: 30px;
+        }
+        .account-pages .myinsurance .card {
+            background-position: 710px -180px;
+        }
+    .account-pages .container-fluid,
+    .account-pages .myinsurance,
+    .account-pages .doctors,
+    .account-pages .claims{
+        padding:0 50px;
+    }
+    .account-pages .navbar-nav {
+        width:100%;
+        margin: 30px 0px 7.5px 0px;
+    }
+    .account-pages .doctors{
+        margin-top: 0;
+    }
+    .account-pages .doctors .right{
+        display: none;
+    }
+    .account-pages .doctors .left{
+        width:100%;
+    }
+    .account-pages .bonus .container{
+        max-width:438px;
+        margin: 0 auto;
+        padding:0px;
+    }
+    .account-pages .bonus .left img{
+        display: none;
+    }
+    .account-pages .bonus .right{
+        width: 438px;
+        margin:40px auto 0 auto;
+    }
+    .account-pages .settings {
+        width: 438px;
+        margin:50px auto 0 auto;
+    }
+       
+        .account-pages .settings .left{
+            width:100%;
+        }
+        .account-pages .settings .right{
+            width:100%;
+            margin-top: 50px;
+            margin-left: 0;
+        }
+        .account-pages .settings form .small-width {
+            width: 209px;
+        }
+        .account-pages .settings .right .btn-block {
+            margin-top: 50px;
+        }
+        .account-pages .documents{
+            margin:60px 0px 0 0;
+            padding:0 50px;
+        }
+        .account-pages .documents .col {
+            float: left;
+            width: calc(34% - 20px);
+            margin-bottom: 30px;
+        }
+        .account-pages .documents .col:nth-child(3n) {
+            margin-right:0px;
+        }
+
+        .account-pages .clients {
+            margin-top: 50px;
+        }
+        .account-pages .clients .tab-pane .myrow .left {
+            width: 100%;
+        }
+        .account-pages .clients .tab-pane .myrow .right {
+            width: 100%;
+            margin-top: 10px;
+        }
+        .account-pages .clients .tab-pane .myrow .right a {
+            width: calc(50% - 10px);
+        }
+        .account-pages .clients .tab-pane .myrow .left .col{
+            width:38%;
+        }
+        .account-pages .clients .tab-pane .purchased-table .myrow .left .col{
+            width:28%;
+        }
+        .account-pages .clients .tab-pane .myrow .left .col:nth-child(3){
+            width:24%;
+        }
+        .account-pages .commissions .top .earning,
+        .account-pages .clients .top .earning {
+            width: 218px;
+        }
+        .account-pages .commissions .top .earning label,
+        .account-pages .clients .top .earning label{
+            width:100%;
+        }
+        .account-pages .commissions .top .earning .input-group,
+        .account-pages .clients .top .earning .input-group{
+            margin-left: 0;
+            width: 100%;
+        }
+        .account-pages .hidden-row .col:nth-child(1) {
+            width:100%;
+            margin-right: 0%;
+        }
+        .account-pages .hidden-row .col:nth-child(2),
+        .button-group.v-group li:nth-child(1) {
+            width:calc(50% - 10px);
+            margin-right: 10px;
+            margin-left:0px;
+            float:left;
+        }
+        .account-pages .hidden-row .col:nth-child(3),
+        .button-group.v-group li:nth-child(2) {
+            width:calc(50% - 10px);
+            margin-left: 10px;
+            margin-right:0px;
+            float:left;
+        }
+        .account-pages .hidden-row .button-group li:first-child {
+            margin-bottom: 20px;
+        }
+        .dentist form {
+            width: 438px;
+        }
+        .account-pages .doctor-claims .claim .myrow .col{
+            width:33.3333%;
+            height:180px;
+            border-right:none;
+            padding:0 0px 0 20px;
+        }
+        .account-pages .doctor-claims .claim .myrow .col:nth-child(1){
+            width:20%;
+            background: #F8F9FD;
+            line-height:70px;
+            height:70px;
+        }
+        .account-pages .doctor-claims .claim .myrow .col:nth-child(2){
+            width:80%;
+            background: #F8F9FD;
+            line-height:70px;
+            height:70px;
+        }
+        .account-pages .doctor-claims .claim .myrow .col:nth-child(5){
+            padding-right:20px;
+        }
+        .account-pages .doctor-claims .claim .myrow .heading{
+            line-height:70px;
+        }
+        .account-pages .doctor-claims .claim .myrow .col label{
+            margin-top:20px;
+        }
+        .account-pages .doctor-claims .claim .myrow .heading,
+        .account-pages .doctor-claims .claim .myrow .col:nth-child(1) {
+            padding-left: 20px;
+        }
+    /* ____________ account-pages end 991__________*/
+
+    /* ____________ faq page end 991__________*/
+    .faq .top {
+        width: 100%;
+    }
+    .faq .top:before{
+        display: none;
+    }
+    .faq .top .text-container {
+        width: 47.45%;
+        margin-top: 0;
+    }
+        .faq .top .text-container h4{
+            width:100%;
+        }
+    .faq .top .text-container h2 {
+        margin-left: 0;
+    }
+    .faq .top .text-container .h-group li{
+        width:calc(50% - 10px);
+    }
+    .faq .top .text-container .h-group li a{
+        width:100%;
+        padding:0px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .faq .top .video {
+        width: 48%;
+        margin-top: 20px;
+    }
+    .faq .inner {
+        width: 100%;
+    }
+    .faq .tabbable-line > .nav-tabs > li {
+        width: 24.1%;
+    }
+    .faq .tab-content form.search-field .form-group>input {
+        float: left;
+        width: 83.3%;
+    }
+    .faq .tab-content form .form-group>.btn {
+        max-width: 95px;
+        height: 55px;
+    }
+    .faq .accordion h2{
+        margin-left: 20px;
+    }
+    .faq .inner:before{
+        display: none;  
+    }
+    .faq-help.paperless.helping .right {
+        margin: 0px 0 0 0px;
+    }
+    .faq-help.helping .left {
+        width: 374px;
+        height: 720px;
+    }
+    .faq-help.paperless.helping .left:before {
+        width: 375px;
+        height: 790px;
+    }
+    .faq-help.paperless.helping {
+        margin-bottom: 30px;
+    }
+    
+    /* ____________ faq page end 991__________*/
+
+    /* ____________ affiliates page 991__________*/
+    .affiliates .hero .left .image {
+        width: 350px;
+        height: 220px;
+        background-size: contain;
+        margin-top: 90px;
+    }
+    .affiliates .hero .left:before {
+        width: 275px;
+        height: 466px;
+        top: 40px;
+    }
+    .affiliates .hero .right:before{
+        display: none;
+    }
+    .affiliates .hero .right {
+        width: 42.7%;
+    }
+    .affiliates .hero {
+        margin-top: 70px;
+    }
+    .affiliates .main-section .text-container {
+        width: 324px;
+    }
+    .affiliates .main-section .video {
+        width: 324px;
+        height: 314px;
+        padding-right:0px;
+        margin-top: 130px;
+    }
+    .affiliates .main-section .video:before {
+        top: -31%;
+        right: -38%;
+    }
+    .affiliates section.goal .goal-col {
+        width: calc(50.2% - 24px);
+    }    
+    .affiliates section.goal .text h4 {
+        margin-bottom: 15px;
+        height:auto;
+    }
+    .faq-help.helping .right h1{
+        margin-bottom: 30px;
+    }
+    .faq-help.helping .right p{
+        margin-bottom: 44px;
+    }
+    .faq .questions{
+        margin-bottom: 40px;
+    }
+    /* ____________ affiliates page end 991__________*/
+
+    .contact-area.helping{
+
+    }
+        .contact.affiliates .faq-help.helping {
+            margin-bottom: 35px;
+        }
+    .faq-help.helping .left {
+        height: 720px;
+    }
+    .bloggers .faq-help.helping .left {
+        height: 610px;
+    }
+    .contact-area.helping .left .image {
+        width: 265px;
+        height: 360px;
+        margin-left: 0;
+    }
+    .contact-area.helping>.left:before {
+        width: 259px;
+        height: 560px;
+        top: -100px;
+    }
+    .contact-area.helping .right {
+        width: 42.16%;
+        margin-right: 50px;
+    }
+    .contact-area.helping .right{
+        margin-top: -40px;
+    }
+    .contact-area.helping .right li .text{
+        width:calc(100% - 110px);
+    }
+
+
+    .edit-quote .accordion .panel-body{
+        width:100%;
+    }
+    /* .edit-quote .accordion .panel-default .collapse{
+        display: none;
+    }
+    .edit-quote .accordion .panel-default {
+        display: block;
+    } */
+    .edit-quote{
+        margin-bottom: 50px;
+    }
+    .edit-quote .accordion {
+        margin: 0 auto;
+        float: none;
+    }
+    .edit-quote .accordion .panel-default form{
+        width:446px;
+        margin:0 auto;
+    }
+    .about.affiliates {
+        margin-top: 0px;
+    }
+    .about.affiliates .hero {
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }
+    
+    .about.affiliates .hero .left .image{
+        width:90%;
+        height:auto;
+        min-height:210px;
+        margin-top: 50px;
+    }
+    .about.affiliates .hero .right {
+        width: 48.7%;
+        margin-top: 0px;
+    }
+    .about.affiliates .hero .right h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .about.affiliates .main-section {
+        margin: 0px auto 120px auto;
+    }
+    .about.affiliates .main-section .text-container {
+        float: left;
+        width: 324px;
+    }
+    .about.affiliates .main-section .text-container h2{
+        font-size: 40px;
+        line-height: 48px;
+        margin: 0px 0 30px 0;
+    }
+    .about.affiliates .main-section .video {
+        width: 344px;
+        margin-top: 120px;
+    }
+    .about.affiliates .main-section .video:before {
+        width: 259px;
+        right: -50px;
+        top:-140px;
+    }
+    .about.affiliates .hero2 .right{
+        margin-top: 20px;
+    }
+    .about.affiliates .hero2 .right h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .about.affiliates .hero2 .left .image {
+        min-height: 290px;
+        margin-top: 0;
+    }
+    .about .section4.helping .left{
+        width:52%;
+    }
+        .about .section4.helping .left .image {
+            width: 300px;
+            height: 270px;
+        }
+    .about .section4.helping .right {
+        margin-top: 0px;
+    }
+    .affiliates section.goal {
+        margin-bottom: -20px;
+    }
+    .about.affiliates section.goal .goal-row {
+        margin-bottom: 120px;
+    }
+    .about.affiliates section.goal .goal-col{
+        width:calc(50% - 24px);
+        margin-bottom: 0;
+    }
+    .about section.goal .text h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+/*___________________ 991 end _________________*/
+
+@media(max-width:800px){
+    aside .menu {
+        left: 50px;
+    }
+    .login-wrapper .main:before {
+        left: -58%;
+    }
+    .login-wrapper .main:after {
+        right: -42%;
+    }
+    .account-pages .myinsurance .card {
+        background-position: 480px -180px;
+    }
+    .account-pages .documents .col {
+        width: calc(34.2% - 20px);
+    }
+}
+@media(max-width:767px){
+    .wrapper {
+        width: 100%;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .first-section {
+        margin-bottom: 60px;
+    }
+    .first-section .left{
+        position: static;
+        width: 100%;
+        padding-top:50px;
+    }
+    .first-section .left h1 {
+        margin-bottom: 24px;
+    }
+    .first-section .left .btn-brand {
+        line-height: 43px;
+        width: 157px;
+        float:none;
+        margin:0 auto 30px auto;
+        display: block;
+    }
+    .first-section .right {
+        width: 100%;
+        margin:0px;
+    }
+    .first-section .right img{
+        width:370px;
+        margin:0px auto;
+    }
+    .first-section .right .column {
+        width: calc(50% - 0px);
+    }
+    .first-section .right .column:nth-child(2){
+        padding-left:0px;
+        top: 10px;
+    }
+    .first-section .right .column:nth-child(4){
+        padding-right:0px;
+        top:12px;
+    }
+    .first-section .right .column:nth-child(4) img:nth-child(2){
+        margin-top:10px;
+    }
+    .first-section .right .column:nth-child(4) img:nth-child(3){
+        width:75%;
+        margin-top:10px;
+    }
+
+    .coverage-section {
+        min-height: auto;
+        margin-bottom: 50px;
+    }
+    .coverage-section .container>.right .inner {
+        margin-left: 0px;
+    }
+    .coverage-card .card {
+        width: 100%;
+        margin-right: 0;
+        padding:19px 0;
+    }
+    .coverage-card .card>.right {
+        width: 100%;
+        text-align: center;
+    }
+    .coverage-card .card-right{
+        float:right;
+        margin-top: 20px;
+    }
+    .coverage-section .container>.left {
+        margin: 0px 20px 0 20px;
+        width:calc(100% - 40px);
+    }
+    .coverage-section .container>.left::before {
+        background: url(../images/home-map-tail-mobile-xs.svg) no-repeat center center;
+        width: 487px;
+        height: 310px;
+        left: 28%;
+        top: -13%;
+        background-size: contain;
+    }
+    .coverage-section .container>.left img {
+        max-width: 370px;
+        width:100%;
+        margin: 0 auto;
+    }
+    section.goal {
+        margin-bottom: -40px;
+    }
+    section.goal h2 {
+        font-size:32px;
+        line-height: 40px;
+        width: 70%;
+        margin: 0 auto 13px auto;
+    }
+    section.goal>h4 {
+        width: 70%;
+        margin: 0 auto;
+    }
+    section.goal .goal-row {
+        margin: 114px 0px 0px;
+        padding: 0 20px;
+    }
+    section.goal .goal-col {
+        width: 100%;
+        margin: 0 0 100px 0;
+    }
+    section.goal .goal-row .goal-col:last-child {
+        margin: 0px;
+    }
+    section.goal .text h4 {
+        margin-bottom: 17px;
+        margin-top: 88px;
+        height: auto;
+    }
+    section.goal .text p {
+        width: 66%;
+        height:auto;
+    }
+    .questions {
+        margin-bottom: 50px;
+    }
+    .questions h2, .questions .container > h4 {
+        float: none;
+        width: 100%;
+        max-width: 89%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .questions .container>.video {
+        float: right;
+        width: 100%;
+        position: relative;
+    }
+    .questions .container>.video {
+        margin: 20px 0 -10px 0;
+    }
+    .questions .container>.video img{
+        margin: 0px auto;
+    }
+    .questions .container>.video:before {
+        top: -17px;
+        left: -17px;
+    }
+    
+    .accordion .panel-default>.panel-heading {
+        padding: 0px 25px;
+    }
+    .accordion .accordion-toggle {
+        line-height: 23px;
+        padding-right: 40px;
+    }
+    .accordion .panel-title {
+        padding: 35px 0 35px 0;
+    }
+    .accordion .panel-body {
+        padding: 0px 25px 35px 25px;
+        width: 100%;
+    }
+    .accordion .panel-title .icon {
+        top: -30px;
+    }
+    .accordion .panel-title .icon .glyphicon-minus,
+    .accordion .panel-title .icon .glyphicon-plus {
+        top: 31px;
+    }
+    .accordion .panel-title .icon .glyphicon-plus {
+        left:0px;
+    }
+    .helping {
+        margin-bottom: 50px;
+    }
+    .helping .left {
+        width: 100%;
+    }
+    .helping .left .image {
+        float: right;
+        margin-left: 0px;
+        width: 279px;
+        height: 313px;
+    }
+    .helping .left:before {
+        right: auto;
+        width: 313px;
+        height: 390px;
+        top: -40px;
+        left: 0px;
+    }
+    .helping .left:after {
+        width: 590px;
+        height: 367px;
+        top: -15%;
+        left: -90%;
+        background-size: cover;
+    }
+    .helping .right {
+        margin: 0px;
+        margin-top: 60px;
+        width:100%;
+        padding:0 20px;
+    }
+    .helping .right h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .helping .right p {
+        width: 91%;
+    }
+    .paperless.helping {
+        margin-bottom: 110px;
+    }
+    .paperless.helping .left .image {
+        height: 300px;
+        background-size: contain;
+        margin-left: 10px;
+        float:left;
+    }
+    .paperless.helping .left:before {
+        width: 213px;
+        height: 380px;
+        top: -28px;
+    }
+    .paperless.helping .left:after {
+        width: 600px;
+        height: 910px;
+        top: -106%;
+        left: 45%;
+        background-size: contain;
+    }
+    .paperless.helping .right {
+        position: static;
+        width: 100%;
+        float: left;
+        margin:90px 0 0 20px;
+        padding:0px;
+    }
+    .paperless.helping .right img {
+        left: 0%;
+        width: 100%;
+        position: static;
+        margin-right:20px;
+        margin-top: 40px;
+        width: calc(100% - 40px);
+    }
+    .coverage-section .container>.right h1 {
+        max-width: 80%;
+    }
+    .home-blog {
+        margin-bottom: 20px;
+    }
+    .home-blog > h4 {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .home-blog > .container {
+        margin-top: 40px;
+    }
+    .home-blog > .container h4 a {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .home-blog > .container img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .home-blog > .container p {
+        margin-bottom: 10px;
+    }
+    .home-blog .row{
+        margin:0px;
+    }
+    .home-blog .col-md-4{
+        padding:0px !important;
+        margin-bottom:50px;
+    }
+    footer .container-fluid {
+        padding: 0 20px;
+    }
+    footer .footer-logo {
+        margin-bottom: 45px;
+    }
+    footer .newsletter h4 {
+        margin-bottom: 5px;
+    }
+    footer .btn-brand {
+        width: 31%;
+        margin-left: 4%;
+        padding:14px 0;
+    }
+    footer .newsletter input {
+        width: 65%;
+        margin-right: 0;
+    }
+    .footer-bottom {
+        width: 100%;
+        margin: 18px auto 0 auto;
+        text-align: center;
+        padding: 30px 0;
+    }
+    .footer-bottom .left {
+        float: left;
+        margin-left: 0px;
+        position: relative;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-bottom .right {
+        position: relative;
+        top: -25px;
+        margin-right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        float: none;
+        width:188px;
+    }
+        .footer-bottom .right ul{
+            width:188px;
+        }
+    
+    footer {
+        padding: 60px 0 0px 0;
+    }
+    /*___________________ home 767 - 414 end _________________*/
+
+    /*___________________ quote page 767 - 414 start _________________*/
+    aside .menu {
+        left: 20px;
+    }
+    .quote-page .inner .form-group {
+        padding:0px;
+    }
+    .quote-page .inner .form-group label{
+        font-size:14px;
+        line-height: 21px;
+    }
+    .quote-page .inner form .btn-brand, .height-weight .btn-brand, .save-quote-inner .btn-brand,
+    .quote-page .btn-brand{
+        width:100%;
+    }
+
+    .quote-page .inner .form-group.small-width,
+    .save-quote-inner .form-group.small-width{
+        width:100%;
+    }
+    .small-width-container .small-width:nth-child(2){
+        margin-left: 0;
+    }
+    .quote-page .inner h2.main {
+        margin: 0 auto 70px auto;
+    }
+    .quote-page .inner h2.main {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .quote-page .inner .add-country{
+        margin-top:15px;
+        display: block;
+    }
+    .quote-page .inner .form-group.small-width.width-xs, .save-quote-inner .form-group.small-width.width-xs{
+        float:left;
+        width:calc(50% - 20px);
+        margin:0 10px;
+    }
+    .h-group.xs-half li{
+        width:calc(50% - 10px);
+    }
+    .h-group.xs-half li a{
+        width:100%;
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .quote-page .inner.gender .form-group.small-width{
+        max-width:193px;
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .quote-page .inner.per-day .form-group.small-width{
+        max-width:initial;
+    }
+    .tabbable-line > .nav-tabs {
+        width: 100%;
+    }
+    .tabbable-line > .nav-tabs > li {
+        width: 48%;
+    }
+    .beneficiary-claims .tabbable-line > .nav-tabs > li {
+        width: 70%;
+    }
+    .radio label small {
+        padding-right: 20px;
+        float: left;
+    }
+    #fakeDiv {
+        width: 100%;
+    }
+
+    /*___________________ quote page 767 - 414 end _________________*/
+
+    /*___________________ plans page 767 - 414 start _________________*/
+    .plan-comparison {
+        margin-bottom: 105px;
+    }
+    .plans-products .container > h4 {
+        width: 100%;
+    }
+    .switch-container{
+        float:left;
+        width:100%;
+    }
+    .switch-tabs{
+        display: block;
+        float:left;
+        margin-top:50px;
+        width:100%;
+        margin-bottom:30px;
+    }
+    .switch-tabs li{
+        width:25%;
+        text-align: center;
+        float:left;
+        border-bottom:1px solid #EDF0FA;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #737680;
+    }
+    .switch-tabs li a{
+        color: #737680;
+    }
+        .switch-tabs li a.active{
+            color: #E03726;
+        }
+    .plans-products .prod-col p {
+        font-size: 20px;
+    }
+    .plans-products .prod-col {
+        width: 100%;
+    }
+    .plans-products .prod-col:before {
+        right: -126%;
+    }
+    .plans-products .prod-col.prod-col4:before {
+        right: -99%;
+    }
+    .plans-products {
+        margin-bottom: 65px;
+    }
+
+
+    .prod-col{
+        display: none;
+    }
+    .prod-col.bronze{
+        display: block;
+    }
+    .comparison-card {
+        margin-top: 30px;
+        border-radius: 0px;
+    }
+    .comparison-card .top-row{
+        display: none !important;
+    }
+    .comparison-card .myrow .col1{
+        display: block !important;
+    }
+    .comparison-card .myrow .col.bronze{
+        display: block;
+    }
+    .comparison-card .myrow .col{
+        display: none;
+    }
+    .comparison-card .myrow .col {
+        width: 100%;
+        text-align: center;
+    }
+    .plans-page .get-quote{
+        height:414px;
+        margin-bottom: 105px;
+        background: url(../images/statue-liberty.png) right 20px bottom no-repeat #FFF9E6;
+    }
+    .plans-page .get-quote .text{
+        margin: 75px 0 0 20px;
+    }
+    .plans-page .get-quote p{
+        font-size: 28px;
+        line-height: 42px;
+        color: #0D0D0F;
+        width:325px;
+        margin-bottom: 30px;
+    }
+    .plans-page .get-quote a{
+        padding:14px 36px;
+        width:193px;
+    }
+    /*___________________ plans page 767 - 414 end _________________*/
+
+    /* ____________ login and signup page 767 __________*/
+        .login-wrapper:before{
+            height:10px;
+            width:100%;
+        }
+        .login-wrapper .main:before {
+            display: none;
+        }
+        .login-wrapper .main:after {
+            display: none;
+        }
+        .login-wrapper .main > .container {
+            height: 100%;
+            min-height: initial;
+        }
+        .login-wrapper .right {
+            float:left;
+            width: 100%;
+            height: 100%;
+        }
+        .login-wrapper form .small-width {
+            width: 100%;
+        }
+        .login-wrapper .navbar-brand {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .login-wrapper .main .right:after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            width: 280px;
+            height: 330px;
+            right: -50%;
+            bottom: -30%;
+            background: url(../images/login-wave-right-xs.svg) no-repeat center center;
+        }
+        .login-wrapper .right h3 {
+            font-size: 28px;
+            line-height: 48px;
+        }
+        
+    /* ____________ login and signup page 767 end __________*/
+
+    /* ____________ account pages 767 start __________*/
+    .account-pages {
+        margin-bottom: 40px;
+    }
+    .account-pages .container-fluid,
+    .account-pages .myinsurance,
+    .account-pages .doctors,
+    .account-pages .claims{
+        padding:0 20px;
+    }
+    .account-pages .myinsurance .card h3 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .account-pages .myinsurance .card h4 {
+        font-size: 23px;
+        line-height: 30px;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    .account-pages .myinsurance .card .h-center a{
+        margin: 0px 10px 20px 0;
+    }
+    .account-pages .myinsurance .card p,
+    .account-pages .myinsurance .card b,
+    .account-pages .myinsurance .card strong{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .account-pages .myinsurance .card {
+        padding: 45px 30px;
+        margin-bottom: 30px;
+    }
+    .account-pages .myinsurance .left {
+        margin-bottom: 50px;
+    }
+    .account-pages .myinsurance .dl-horizontal {
+        width: 100% !important;
+        margin-bottom: 0;
+    }
+    .account-pages .myinsurance .dl-horizontal dt{
+        float:left;
+    }
+    .account-pages .claims>.left{
+        width:100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+        .account-pages .claims>.left:before {
+            height: 1px;
+            width: 100%;
+            left: 0px;
+            top: auto;
+            bottom: -30px;
+            transform: none;
+        }
+        .account-pages .claims h3 {
+            margin: 10px auto 40px auto;
+        }
+    .account-pages .claims>.right{
+        width:100%;
+        margin-top: 40px;
+    }
+    .account-pages .claims .center-h{
+        text-align: center;
+    }
+    .account-pages .claims .center-h .btn {
+        padding: 17px 0px;
+        width: 140px !important;
+        display: inline-block;
+        margin: 0 8px;
+    }
+    .account-pages .claims .bottom {
+        margin: 50px auto 0 auto;
+    }
+    .account-pages .claims .bottom .myrow .left .col {
+        font-size: 14px;
+    }
+    .account-pages .claims .bottom .myrow .left {
+        width: 100%;
+    }
+    .account-pages .claims .bottom .myrow .right {
+        width: 100%;
+        float: left;
+        margin: 20px 0 20px 0;
+    }
+    .account-pages .claims .left>a, .account-pages .claims .right>a {
+        width: 100%;
+    }
+    .account-pages .bonus .container{
+        max-width:438px;
+        padding:0px 20px;
+    }
+    .account-pages .bonus .right {
+        width: 100%;
+        margin:40px auto 0 auto;
+    }
+    .account-pages .bonus .right .card-left{
+        display: none;
+    }
+    .account-pages .bonus .right .card .card-right {
+        width: 100%;
+    }
+    .account-pages .bonus .left {
+        width: 100%;
+    }
+    .account-pages .settings,
+    .account-pages.partner .settings {
+        width: 100%;
+        margin:50px 0px 0 0;
+        padding:0 20px;
+    }
+    .account-pages.partner .settings .block, .account-pages .settings .block{
+        width:100%;
+    }
+    .account-pages .settings form .small-width {
+        width: 100%;
+    }
+    .account-pages .settings form .small-width-container,
+    .account-pages .settings form .small-width{
+        margin:0px;
+    }
+    .account-pages .settings form .small-width-container{
+        margin-bottom: 15px;
+    }
+    .account-pages .documents{
+        margin:20px 0px 0 0;
+        padding:0 20px;
+    }
+    .account-pages .documents .col {
+        width: calc(52% - 20px);
+    }
+    .account-pages .documents .col:nth-child(even) {
+        margin-right:0px;
+    }
+    .account-pages .documents .col:nth-child(odd) {
+        margin-right:20px;
+    }
+    .account-pages .documents .col .img-container{
+        height:223px;
+    }
+    .account-pages .documents .col h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .account-pages .clients {
+        margin-top: 30px;
+    }
+    .account-pages .clients .tab-pane .myrow .left .col,
+    .account-pages .clients .tab-pane .myrow .left .col:nth-child(3){
+        width:100%;
+        border-bottom:1px solid #EDF0FA;
+        font-size: 14px;
+        line-height: 60px;
+        font-weight: normal;
+    }
+    .account-pages .clients .tab-pane .myrow .left .col b{
+        float:left;
+        width:50%;
+    }
+    .account-pages .clients .tab-pane .myrow .right {
+        margin-top: 20px;
+    }
+    .account-pages .clients .tab-pane .myrow {
+        margin-bottom: 40px;
+    }
+    .account-pages .commissions .top .pull-right,
+    .account-pages .clients .top .pull-right{
+        float: left !important;
+        clear: both;
+        text-align: left;
+    }
+    .account-pages .commissions .bottom .myrow .col{
+        width:100%;
+        border-bottom:1px solid #EDF0FA;
+    }
+    .account-pages .commissions .bottom .myrow .col b{
+        float: left;
+        width:50%;
+        font-weight: normal;
+    }
+    .account-pages .commissions .bottom .col:nth-child(4),
+    .account-pages .commissions .bottom .col:nth-child(5) {
+        text-align: left;
+    }
+
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col{
+        width:100%;
+    }
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col b{
+        width:50%;
+    }
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col:nth-child(4) {
+        width: 100%;
+        padding: 0 20px;
+        float: left;
+    }
+
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col:nth-child(4) {
+        width: 100%;
+        padding: 0 20px;
+        float: left;
+    }
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col:nth-child(4) a {
+        width: 100%;
+        display: inline-block;
+    }
+    .account-pages .clients .tab-pane .purchased-table .myrow .left .col:nth-child(4) img {
+        margin: 8px 0 0 0;
+        float: right;
+    }
+    .account-pages .hidden-row .button-group li{
+        width: 100%;
+        margin:0px;
+    }
+    .account-pages .hidden-row .button-group li:first-child {
+        margin-bottom: 10px;
+    }
+    .account-pages .hidden-row .col:nth-child(2), .button-group.v-group li:nth-child(1),
+    .account-pages .hidden-row .col:nth-child(3), .button-group.v-group li:nth-child(2) {
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .account-pages .hidden-row{
+        margin-bottom: 0px;
+    }
+    .account-pages .clients .tab-pane .myrow {
+        margin-bottom: 10px;
+    }
+    .account-pages .clients .nav>li>a {
+        padding: 10px 0px;
+    }
+    .dentist form,
+    .dentist form .center,
+    .dentist form .center,
+    .account-pages .clients .container form  {
+        width: 100%;
+    }
+    .dentist form .center {
+        margin: 50px auto 0 auto;
+    }
+    .dentist .small-width-container {
+        margin-bottom: 0px;
+    }
+    .small-width-container.xs-half{
+
+    }
+        .small-width-container.xs-half .small-width{
+            width:calc(50% - 5px);
+        }
+        .small-width-container.xs-half .small-width:nth-child(1){
+
+        }
+    .small-width-container.xs-full{
+        
+    }
+    .doctor-claims>.container{
+        padding:0px;
+    }
+    .account-pages .doctor-claims .main-heading{
+        padding-left:20px;
+    }
+    .account-pages .doctor-claims .claim .myrow {
+        border: none;
+    }
+    .account-pages .doctor-claims .claim .myrow .col:nth-child(1){
+        width:35%;
+    }
+    .account-pages .doctor-claims .claim .myrow .col:nth-child(2){
+        width:65%;
+    }
+    .account-pages .doctor-claims .claim .myrow .col:nth-child(3){
+        width:100%;
+        padding-right: 20px;
+    }
+    .account-pages .doctor-claims .claim .myrow .col:nth-child(4){
+        width:50%;
+    }
+    .account-pages .doctor-claims .claim .myrow .col:nth-child(5){
+        width:50%;
+    }
+    .myrow.text-row{
+        border: 1px solid #EDF0FA !important;
+    }
+    .quote-page .inner.choose-insurance .form-group {
+        padding: 0 10px;
+    }
+    .quote-page .inner.choose-insurance .col{
+        max-width:350px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /* ____________ account pages 767 end __________*/
+
+    /* ____________ page 767 end __________*/
+    .faq .top {
+        margin: 30px auto 40px auto;
+    }
+    .faq .top .text-container {
+        width:100%;
+    }
+    .faq .top .text-container h2 {
+        margin-left: 0;
+        text-align: left;
+    }
+    .faq .top .video{
+        margin-top: 70px;
+        width:100%;
+    }
+        .faq .top .video img{
+            width:310px;
+            display:block;
+            margin:0 auto;
+        }
+    .faq .top .video:before {
+        top: -8%;
+        left: -5.5%;
+    }
+    .faq .top .video:after{
+        bottom: -8%;
+        right: -5.5%;
+    }
+    .faq .search-field {
+        top: -80px;
+    }
+    .faq .tabbable-line > .tab-content {
+        margin: 120px auto 0 auto;
+    }
+    .faq .tabbable-line > .nav-tabs > li {
+        /* width: 48.6%; */
+        width:23%;
+    }
+        .faq .tabbable-line > .nav-tabs > li a{
+            padding:10px 0px;
+        }
+    .faq .tab-content form.search-field .form-group>input {
+        width: 77.3%;
+    }
+    .faq .tab-content form .form-group>.btn {
+        padding: 0px;
+        line-height: 35px;
+    }
+    .faq .accordion h2 {
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+    .faq-help.helping .left,
+    .bloggers .faq-help.helping .left {
+        width: 100%;
+        height: auto;
+    }
+        .faq-help.paperless.helping .left .image {
+            width: 320px;
+            height: 290px;
+            float: none;
+            margin: 0 auto 40px auto;
+        }
+    .faq-help.paperless.helping .right {
+        margin: 0px 0 0 0px;
+    }
+    .faq-help.paperless.helping .right{
+        width:100%;
+    }
+    .faq-help.helping .right h1 {
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .faq-help.helping .right p{
+        margin-bottom: 40px;
+        max-width: initial;
+    }
+    .faq-help.paperless.helping .left:before {
+        width: 100%;
+        right: -70%;
+    }
+    .faq .questions {
+        margin-bottom: 0px;
+    }
+    .faq-help.paperless.helping {
+        margin-bottom: 80px;
+    }
+
+    /* ____________ faq page 767 end __________*/
+
+    /* ____________ affiliates page 767 __________*/
+    .affiliates .hero {
+        width:100%;
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+    .affiliates .hero .left{
+        width:100%;
+    }
+    .affiliates .hero .right{
+        width:100%;
+        margin-right: 0px;
+    }
+    .affiliates .hero .right h1 {
+        line-height: 44px;
+    }
+    .affiliates .hero .right p {
+        line-height: 30px;
+    }
+    .affiliates .hero .left .image {
+        width: 335px;
+        height: 210px;
+        margin:40px auto 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .affiliates .hero .left:before {
+        width: 275px;
+        height: 466px;
+        top: 100px;
+        left: -30px;
+    }
+    .affiliates .main-section:before{
+        display: none;
+    }
+    .affiliates .main-section .text-container h2.with-underline {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .affiliates .main-section .video {
+        margin: 65px auto 0 auto;
+        float: left;
+        width: 100%;
+        height:270px;
+    }
+    .affiliates .main-section .video img{
+        width:360px;
+        display:block;
+        margin:0 auto;
+    }
+    .affiliates .main-section {
+        margin: 0px auto 60px auto;
+    }
+    .affiliates section.goal .goal-col {
+        width: 100%;
+    }
+    .affiliates section.goal .text p {
+        width: 74%;
+    }
+    /* ____________ affiliates page 767 end __________*/
+
+    /* ____________ contact page 767 start __________*/
+    .contact-area.helping {
+        margin-top: 45px;
+    }
+    .contact-area.helping .left {
+        width: 100%;
+    }
+    .contact .faq-help.paperless.helping .left .image{
+        width: 320px;
+        height: 290px;
+        float: none;
+        margin: 0 auto 40px auto;
+    }
+    .contact-area.helping .left .image {
+        width: 265px;
+        height: 260px;
+        float: left;
+        margin-left: 0px;
+    }
+    .contact-area.helping .right {
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+    .contact-area.helping .right li .text h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .contact-area.helping .right li .text p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .contact-area.helping>.left:before {
+        width: 213px;
+        height: 456px;
+        top: -50px;
+        right: 0px;
+        left: auto;
+    }
+    .contact-area.helping .left .image{
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+    /* ____________ contact page 767 end __________*/
+    .edit-quote.review .small-width-container{
+        border-bottom:none;
+        margin-bottom: 0px;
+    }
+    .edit-quote .accordion .panel-default form{
+        width:100%;
+        margin:0 auto;
+    }
+    .edit-quote .accordion .panel-default form .small-width {
+        float: left;
+        width: 100%;
+        margin: 0px;
+    }
+    .edit-quote .accordion .panel-default form .small-width:nth-child(2){
+        margin-bottom: 15px;
+    }
+    .about.affiliates {
+        margin-top: 40px;
+    }
+    .about.affiliates .hero .left .image {
+        width: 320px;
+        min-height: 230px;
+        float: none;
+        margin: 0px auto 0 auto;
+    }
+    .about.affiliates .hero .left:after{
+        display: none;
+    }
+    .about.affiliates .hero .right {
+        width: 100%;
+        margin-top: 90px;
+    }
+    .about.affiliates .main-section .text-container {
+        float: left;
+        width: 100%;
+    }
+    .about.affiliates .main-section .video {
+        width: 100%;
+        float:left;
+        margin-top: 0;
+    }
+    .about.affiliates .main-section .video:before {
+        width: 210px;
+        right: -50px;
+        top: -30px;
+        height: 415px;
+    }
+    .about.affiliates .main-section .text-container {
+        margin-top: 40px;
+    }
+    .about.affiliates .main-section {
+        margin: 0px auto 70px auto;
+    }
+    .about.affiliates .hero{
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+    .about.affiliates .hero .left .image {
+        margin-top: 0px;
+    }
+    .about.affiliates .hero .right {
+        margin-top: 50px;
+    }
+    .about.affiliates .hero2 {
+        margin-bottom: 70px;
+    }
+        .about.affiliates .hero2 .left .image {
+            width: 320px;
+            min-height: 280px;
+            float: none;
+            margin: 0px auto 0 auto;
+        }
+    .about .section4 {
+        margin-bottom: 30px;/*fixed*/
+    }
+        .about .helping.section4 .left{
+            width:100%;
+            margin-bottom: 40px;
+        }
+            .about .helping.section4 .left .image{
+                margin:0 auto;
+                float:none;
+            }
+        .about.affiliates .section4.helping .right {
+            width: 100%;
+            margin: 0px 0px 40px 0;
+            padding: 0px;
+        }
+            .about.affiliates .section4.helping .right p{
+                width:100%;
+            }
+    .about.affiliates section.goal .goal-row {
+        margin-bottom: 30px;
+    }
+        .about.affiliates section.goal .goal-col {
+            width: 100%;
+            padding-bottom: 0px;
+            margin-bottom:60px;
+        }
+    .affiliates section.goal .text p {
+        width: 100%;
+        padding:0 20px;
+    }
+    .main-fix{
+        width: 100%;
+        margin-left: 0px;
+        text-align: left;
+    }
+}
+
+/*___________________ 767 - 414 end _________________*/
+
+@media(max-width:413px){    
+    .coverage-section .container>.right h1 {
+        max-width: 100%;
+    }
+    .coverage-section .container>.left::before {
+        left: 26%;
+        top: -18%;
+    }
+    .helping .left:after {
+        left: -100%;
+    }
+    .paperless.helping .left:after {
+        top: -101%;
+        left: 38%;
+    }
+    /*___________________ home 413 end _________________*/
+}
+
+/*___________________ 413 end _________________*/
