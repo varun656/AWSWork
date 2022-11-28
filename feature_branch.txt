@@ -1,9 +1,12 @@
 
+<<<<<<< HEAD
 Testing1234
 w
 d
 wad
 awdaawd
+=======
+>>>>>>> 5ebffc079cba29d3d1f3a2d9b8d2c96d7ea3d669
 wd
 wd
 aw
