@@ -16,7 +16,7 @@ Parameters:
   Namespace:
     Type: String
     Description: Namespace Name
-    Default: default
+    Default: namepassedhere
 Resources:
   ChildStack:
     Type: AWS::CloudFormation::Stack
