@@ -27,3 +27,6 @@ Resources:
         ServiceNameC:
           Ref: ServiceName
       TemplateURL: https://s3.us-east-1.amazonaws.com/hello1stack23/f2e88901048e05dee16e3cf169bccf60.template
+Outputs:
+  Name:
+    Value: !Ref Namespace
