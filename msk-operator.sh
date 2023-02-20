@@ -1,5 +1,6 @@
 #!/bin/sh
 
+Hello
 cat << EOF
 ####################################
 ### Get MSK Environment Details ###
