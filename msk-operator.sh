@@ -1,6 +1,6 @@
 #!/bin/sh
 
-Hello Moto
+Hello moto
 cat << EOF
 ####################################
 ### Get MSK Environment Details ###
