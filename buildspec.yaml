@@ -29,7 +29,7 @@ batch:
         variables:
           BUILD_ID: build2
     - identifier: build3
-      buildspec: buildspec2.yml
+      buildspec: buildspec3.yml
       env:
         variables:
           BUILD_ID: build3
