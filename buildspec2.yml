@@ -33,12 +33,13 @@ phases:
     commands:
        - npm install
        - npm install jest jest-junit dotenv --save-dev
+       - mkdir -p /efsmount/test2
       # - command
   build:
     commands:
        - cd NPMTestJunit
        - npx jest sum2.test.js
-       - ls -ltr
+       - cp -rf test-results /efsmount/test2
   #post_build:
     #commands:
       # - command

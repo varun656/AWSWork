@@ -61,6 +61,7 @@ phases:
       # - command
   build:
     commands:
+       - cd /efsmount
        - ls -ltr
       # - command
   #post_build:
