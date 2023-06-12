@@ -34,18 +34,22 @@ phases:
        - npm install
        - npm install jest jest-junit dotenv --save-dev
        - df -h
-       - cd /efsmount
-       - ls -ltr
+       - mkdir -p /efsmount/test1
       # - command
   build:
     commands:
+       - cd $CODEBUILD_SRC_DIR
        - cd NPMTestJunit
        - npx jest sum.test.js
        - ls -ltr
+       - cp -rf test-results /efsmount/test1
 
-  #post_build:
-    #commands:
-      # - command
+  post_build:
+    commands:
+       - cd /efsmount
+       - ls -ltr
+       - cd /efsmount/test1/test-results
+       - ls -ltr
       # - command
 reports:
   jest_reports:
