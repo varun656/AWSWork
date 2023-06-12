@@ -33,12 +33,16 @@ phases:
     commands:
        - npm install
        - npm install jest jest-junit dotenv --save-dev
+       - du -fh
+       - cd /efsmount
+       - ls -ltr
       # - command
   build:
     commands:
        - cd NPMTestJunit
        - npx jest sum.test.js
        - ls -ltr
+
   #post_build:
     #commands:
       # - command
