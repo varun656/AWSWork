@@ -1,0 +1,14 @@
+version: 0.2
+
+phases: 
+  pre_build:
+    commands:
+      - aws s3 cp s3://sourcebucket-cb/build1-Build1/file1.txt .
+      - cp /efsmount/file2efs.txt .
+  build:
+    commands:
+      - echo "This is from first inside" > file2.txt
+      - ls -ltr
+artifacts:
+  files:
+    - '**/*'
