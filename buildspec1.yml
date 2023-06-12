@@ -33,7 +33,7 @@ phases:
     commands:
        - npm install
        - npm install jest jest-junit dotenv --save-dev
-       - du -h
+       - df -h
        - cd /efsmount
        - ls -ltr
       # - command
