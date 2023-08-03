@@ -36,11 +36,12 @@ batch:
           BUILD_ID: build3
       ignore-failure: false
     - identifier: build4
+      buildspec: BatchGraph/buildspec2.yml
       env:
         variables:
           BUILD_ID: build4
       ignore-failure: false
-     - identifier: build5
+    - identifier: build5
       buildspec: BatchGraph/buildspec2.yml
       env:
         variables:
