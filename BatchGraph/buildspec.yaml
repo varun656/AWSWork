@@ -1,0 +1,243 @@
+version: 0.2
+
+#env:
+  #variables:
+     # key: "value"
+     # key: "value"
+  #parameter-store:
+     # key: "value"
+     # key: "value"
+  #secrets-manager:
+     # key: secret-id:json-key:version-stage:version-id
+     # key: secret-id:json-key:version-stage:version-id
+  #exported-variables:
+     # - variable
+     # - variable
+  #git-credential-helper: yes
+batch:
+  fast-fail: false
+  build-graph:
+    - identifier: build1
+      buildspec: buildspec1.yml
+      env:
+        variables:
+          BUILD_ID: build1
+      ignore-failure: false
+    - identifier: build2
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build2
+      ignore-failure: false
+    - identifier: build3
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build3
+      ignore-failure: false
+    - identifier: build4
+      env:
+        variables:
+          BUILD_ID: build4
+      ignore-failure: false
+     - identifier: build5
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build5
+      ignore-failure: false
+    - identifier: build6
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build6
+      ignore-failure: false
+    - identifier: build7
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build7
+      ignore-failure: false
+    - identifier: build8
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build8
+      ignore-failure: false
+    - identifier: build9
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build9
+      ignore-failure: false
+    - identifier: build10
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build10
+      ignore-failure: false
+    - identifier: build11
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build11
+      ignore-failure: false
+    - identifier: build12
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build12
+      ignore-failure: false
+    - identifier: build13
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build13
+      ignore-failure: false
+    - identifier: build14
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build14
+      ignore-failure: false
+    - identifier: build15
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build15
+      ignore-failure: false
+    - identifier: build16
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build16
+      ignore-failure: false
+    - identifier: build17
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build17
+      ignore-failure: false
+    - identifier: build18
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build18
+      ignore-failure: false
+    - identifier: build19
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build19
+      ignore-failure: false
+    - identifier: build20
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build20
+      ignore-failure: false
+    - identifier: build21
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build21
+      ignore-failure: false
+    - identifier: build22
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build22
+      ignore-failure: false
+    - identifier: build23
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build23
+      ignore-failure: false
+    - identifier: build24
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build24
+      ignore-failure: false
+    - identifier: build25
+      buildspec: buildspec2.yml
+      env:
+        variables:
+          BUILD_ID: build25
+      ignore-failure: true
+    - identifier: build26
+      buildspec: buildspec3.yml
+      env:
+        variables:
+          BUILD_ID: build26
+      ignore-failure: true
+    - identifier: build27
+      buildspec: buildspec3.yml
+      env:
+        variables:
+          BUILD_ID: build27
+      ignore-failure: true
+    - identifier: build28
+      buildspec: buildspec3.yml
+      env:
+        variables:
+          BUILD_ID: build28
+      ignore-failure: false
+    - identifier: build29
+      buildspec: buildspec3.yml
+      env:
+        variables:
+          BUILD_ID: build29
+      ignore-failure: false
+    - identifier: build30
+      buildspec: buildspec3.yml
+      env:
+        variables:
+          BUILD_ID: build30
+      ignore-failure: true
+      
+  #fast-fail: true
+  #build-list:
+  #build-matrix:
+  #build-graph:
+phases:
+  #install:
+    #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
+    #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
+    #runtime-versions:
+      # name: version
+      # name: version
+    #commands:
+      # - command
+      # - command
+  #pre_build:
+    #commands:
+      # - command
+      # - command
+  build:
+    commands:
+       - ls -ltr
+      # - command
+  #post_build:
+    #commands:
+      # - command
+      # - command
+#reports:
+  #report-name-or-arn:
+    #files:
+      # - location
+      # - location
+    #base-directory: location
+    #discard-paths: yes
+    #file-format: JunitXml | CucumberJson
+artifacts:
+  files:
+     - '**/*'
+    # - location
+  #name: $(date +%Y-%m-%d)
+  #discard-paths: yes
+  #base-directory: location
+#cache:
+  #paths:
+    # - paths

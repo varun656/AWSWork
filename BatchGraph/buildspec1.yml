@@ -1,0 +1,11 @@
+version: 0.2
+
+phases: 
+ pre_build:
+    commands:
+      - echo "This is from first inside" > file2efs.txt
+      - ls -ltr
+      - df -h
+artifacts:
+  files:
+    - '**/*'

@@ -1,0 +1,11 @@
+version: 0.2
+
+phases: 
+  build:
+    commands:
+      - echosadasd
+      - echo "This is from first inside" > file2.txt
+      - ls -ltr
+artifacts:
+  files:
+    - '**/*'
