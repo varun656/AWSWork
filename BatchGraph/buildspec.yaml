@@ -184,13 +184,13 @@ batch:
       env:
         variables:
           BUILD_ID: build28
-      ignore-failure: false
+      ignore-failure: true
     - identifier: build29
       buildspec: BatchGraph/buildspec3.yml
       env:
         variables:
           BUILD_ID: build29
-      ignore-failure: false
+      ignore-failure: true
     - identifier: build30
       buildspec: BatchGraph/buildspec4.yml
       env:
