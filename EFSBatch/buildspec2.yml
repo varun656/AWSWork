@@ -1,0 +1,14 @@
+version: 0.2
+
+phases: 
+  pre_build:
+    commands:
+      - cp /efsmount/file2efs.txt .
+  build:
+    commands:
+      - cat file2efs.txt
+      - echo "This is from second build inside" > file2.txt
+      - ls -ltr
+artifacts:
+  files:
+    - '**/*'
