@@ -20,11 +20,10 @@ batch:
       env:
         variables:
           BUILD_ID: build3
-       depend-on:
+      depend-on:
         - build1
         - build2
 phases:
-
   build:
     commands:
        - ls -ltr
