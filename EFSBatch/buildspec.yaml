@@ -3,20 +3,20 @@ batch:
   fast-fail: false
   build-graph:
     - identifier: build1
-      buildspec: buildspec1.yml
+      buildspec: EFSBatch/buildspec1.yml
       env:
         variables:
           BUILD_ID: build1
       ignore-failure: false
     - identifier: build2
-      buildspec: buildspec2.yml
+      buildspec: EFSBatch/buildspec2.yml
       env:
         variables:
           BUILD_ID: build2
       depend-on:
         - build1
     - identifier: build3
-      buildspec: buildspec2.yml
+      buildspec: EFSBatch/buildspec2.yml
       env:
         variables:
           BUILD_ID: build3
