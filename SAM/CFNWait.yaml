@@ -8,7 +8,7 @@ Parameters:
     Default: Hello2
   Test3:
     Type: String
-    Default: Hello3
+    Default: Hello4
 Resources:
   Wait:
     Type: AWS::CloudFormation::WaitConditionHandle
