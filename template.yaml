@@ -14,7 +14,8 @@ Resources:
           TestParameter: Hello
       Handler: index.main
       Runtime: python3.9
-      CodeUri: s3://bucket4macrotesting/pythoncode2.zip
+      CodeUri: varun/pythoncode.py
+      #CodeUri: s3://bucket4macrotesting/pythoncode2.zip
       # InlineCode: |
       #   def main(event, context):
       #       return {"statusCode": 200, "body": "Hello from Lambda 2!"}
