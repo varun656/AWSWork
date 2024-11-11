@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::LanguageExtensions
+Description: serverless Db normalization
+Resources:
+  Wait:
+    Type: AWS::CloudFormation::WaitConditionHandle
+  Wait2:
+    Type: AWS::CloudFormation::WaitConditionHandle
