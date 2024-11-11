@@ -16,6 +16,6 @@ Resources:
       Runtime: python3.9
       InlineCode: |
         def main(event, context):
-            return {"statusCode": 200, "body": "Hello from Lambda!"}
+            return {"statusCode": 200, "body": "Hello from Lambda 2!"}
       MemorySize: 3008
       Timeout: 30
