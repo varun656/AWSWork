@@ -11,7 +11,7 @@ Resources:
     Properties:
       Environment:
         Variables:
-          TestParameter: !Ref TestParameter
+          TestParameter: Hello
       Handler: index.main
       Runtime: python3.9
       InlineCode: |
