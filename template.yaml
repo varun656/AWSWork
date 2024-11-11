@@ -6,3 +6,16 @@ Resources:
     Type: AWS::CloudFormation::WaitConditionHandle
   Wait2:
     Type: AWS::CloudFormation::WaitConditionHandle
+  TestFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Environment:
+        Variables:
+          TestParameter: !Ref TestParameter
+      Handler: index.main
+      Runtime: python3.9
+      InlineCode: |
+        def main(event, context):
+            return {"statusCode": 200, "body": "Hello from Lambda!"}
+      MemorySize: 3008
+      Timeout: 30
