@@ -6,3 +6,9 @@ jobs:
       - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
+  Hello-New-Job:
+    runs-on:
+      - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - run: echo "Hello New World!"
+      - run: "ls -ltr"
