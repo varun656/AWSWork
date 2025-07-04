@@ -6,7 +6,9 @@ jobs:
       - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
+      - run: echo "sleep 60"
   Hello-New-Job:
+    needs: Hello-World-Job
     runs-on:
       - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
