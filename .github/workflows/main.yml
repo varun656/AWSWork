@@ -11,4 +11,4 @@ jobs:
       - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello New World 1!"
-      - run: "ls -ltr"
+      - run: "ls "
