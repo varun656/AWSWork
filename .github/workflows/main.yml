@@ -6,7 +6,7 @@ jobs:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
-      - run: sleep 65
+      - run: sleep 60
   Hello-New-Job:
     runs-on:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
