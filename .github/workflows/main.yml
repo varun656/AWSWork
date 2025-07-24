@@ -3,13 +3,13 @@ on: [push]
 jobs:
   Hello-World-Job:
     runs-on:
-      - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
       - run: sleep 65
   Hello-New-Job:
     runs-on:
-      - codebuild-GitHubRunner-${{ github.run_id }}-${{ github.run_attempt }}
+      - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello New World 1!"
       - run: "ls "
