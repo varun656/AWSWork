@@ -7,7 +7,7 @@ jobs:
         buildspec-override:true
     steps:
       - run: echo "Hello World!"
-      - run: sleep 60
+      - run: sleep 61
   Hello-New-Job:
     runs-on:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
