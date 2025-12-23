@@ -31,7 +31,7 @@ class Kernel extends ConsoleKernel
     }
 
     /**
-     * Register the Closure based commands for the application 2.
+     * Register the Closure based commands for the application.
      *
      * @return void
      */
