@@ -21,7 +21,7 @@ class RefreshDatabase extends Command
     protected $description = 'Refresh database to remove user changes from production server';
 
     /**
-     * Execute the console command.
+     * Execute the console command test.
      *
      * @return void
      */
