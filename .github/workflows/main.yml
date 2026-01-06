@@ -6,7 +6,7 @@ jobs:
       - codebuild-RunnerDub-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
-      - run: sleep 16
+      - run: sleep 17
   Hello-New-Job:
     runs-on:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
