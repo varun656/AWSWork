@@ -1,4 +1,4 @@
-name: Hello World
+name: SIN Replication
 on: [push]
 jobs:
   Hello-World-Job:
