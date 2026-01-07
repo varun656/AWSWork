@@ -6,7 +6,7 @@ jobs:
       - codebuild-TestRunner1-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!"
-      - run: sleep 5
+      - run: sleep 6
   Hello-New-Job:
     runs-on:
       - codebuild-TestRunner2-${{ github.run_id }}-${{ github.run_attempt }}
