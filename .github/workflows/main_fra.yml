@@ -3,11 +3,10 @@ on: [push]
 jobs:
   Job1:
     runs-on:
-      #- codebuild-StaleRunner-${{ github.run_id }}-${{ github.run_attempt }}
       - codebuild-StaleRunner-20826674918-1
     steps:
       - run: echo "Hello World!"
-      - run: sleep 20
+      - run: sleep 10
   Hello-New-Job:
     runs-on:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
