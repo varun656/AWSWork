@@ -1,0 +1,15 @@
+name: FRA Replication
+on: [push]
+jobs:
+  Job1:
+    runs-on:
+      - codebuild-StaleRunner-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - run: echo "Hello World!"
+      - run: sleep 60
+  Hello-New-Job:
+    runs-on:
+      - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - run: echo "Hello New World 1!"
+      - run: "ls "
