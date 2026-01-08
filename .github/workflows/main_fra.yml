@@ -6,7 +6,7 @@ jobs:
       - codebuild-StaleRunner-20826674918-1
     steps:
       - run: echo "Hello World!"
-      - run: sleep 10
+      - run: sleep 12
   Hello-New-Job:
     runs-on:
       - codebuild-CustomImage5678-${{ github.run_id }}-${{ github.run_attempt }}
