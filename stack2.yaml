@@ -8,6 +8,8 @@ Parameters:
 Resources:
   WaitCondition:
     Type: AWS::CloudFormation::WaitConditionHandle
+  WaitCondition2:
+    Type: AWS::CloudFormation::WaitConditionHandle
 Outputs:
   Name:
     Value:
