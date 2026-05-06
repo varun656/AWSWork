@@ -12,6 +12,8 @@ Resources:
     Type: AWS::CloudFormation::WaitConditionHandle
   WaitCondition3:
     Type: AWS::CloudFormation::WaitConditionHandle
+  WaitCondition4:
+    Type: AWS::CloudFormation::WaitConditionHandle
 Outputs:
   Name:
     Value:
