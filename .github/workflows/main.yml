@@ -1,4 +1,5 @@
 name: Hello World
+run-name: "Test — non-ASCII → Привет run-name"
 on: [push]
 jobs:
   Hello-World-Job:
