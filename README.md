@@ -1,3 +1,3 @@
 # AWSWork
 
-Baseline test - ASCII only commit message
+Non-ASCII test — verifying runner bootstrap with special characters
