@@ -1,0 +1,11 @@
+name: Windows Runner Test
+run-name: "Test — non-ASCII → Привет Windows runner"
+on: [push]
+jobs:
+  windows-test:
+    runs-on:
+      - codebuild-RunnerDubWindows-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - run: echo "Hello from Windows!"
+      - run: Start-Sleep -Seconds 10
+      - run: echo "Done"
