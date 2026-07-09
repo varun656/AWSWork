@@ -1,3 +1,3 @@
 # AWSWork
 
-Non-ASCII test — verifying runner bootstrap with special characters
+Testing Windows runner with non-ASCII run-name
