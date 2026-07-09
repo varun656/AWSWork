@@ -1,5 +1,5 @@
 name: Windows Runner Test
-run-name: "Test — non-ASCII → Привет Windows runner"
+run-name: "Windows Runner ASCII Test Run"
 on: [push]
 jobs:
   windows-test:
