@@ -29,26 +29,25 @@ phases:
     #commands:
       # - command
       # - command
-  pre_build:
-    commands:
-       - npm install
-       - npm install jest jest-junit dotenv --save-dev
-       - mkdir -p /efsmount/test2
+  # pre_build:
+  #   commands:
+  #      - npm install
+  #      - npm install jest jest-junit dotenv --save-dev
+  #      - mkdir -p /efsmount/test3
       # - command
   build:
     commands:
-       - cd NPMTestJunit
-       - npx jest sum2.test.js
-       - cp -rf test-results /efsmount/test2
+       - cd /efsmount
+       - ls -ltr
   #post_build:
     #commands:
       # - command
       # - command
-reports:
-  jest_reports:
-    files:
-      - NPMTestJunit/test-results/**/*
-    file-format: JUNITXML
+# reports:
+#   jest_reports:
+#     files:
+#       - NPMTestJunit/test-results/**/*
+#     file-format: JUNITXML
 #reports:
   #report-name-or-arn:
     #files:

@@ -29,11 +29,12 @@ batch:
         variables:
           BUILD_ID: build2
     - identifier: build3
-      buildspec: buildspec2.yml
+      buildspec: buildspec3.yml
       env:
         variables:
           BUILD_ID: build3
     - identifier: build4
+      buildspec: buildspec4.yml
       env:
         variables:
           BUILD_ID: build3
@@ -61,6 +62,7 @@ phases:
       # - command
   build:
     commands:
+       - cd /efsmount
        - ls -ltr
       # - command
   #post_build:
