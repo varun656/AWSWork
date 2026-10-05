@@ -1,0 +1,2 @@
+Draft PR test for CodePipeline trigger.
+Update 2 to fire PULL_REQUEST_UPDATED.
